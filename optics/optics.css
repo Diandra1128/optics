@@ -1,0 +1,30 @@
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  width:100%;
+}
+
+header {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+  height: 3rem;
+  font-size: 1rem;
+  z-index: 1;
+  top: 1rem;
+  background-color: cadetblue;
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+header img {
+  padding-right: 1rem;
+}
