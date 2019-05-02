@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(192,192,192);
+  background-image: linear-gradient(rgb(30,144,255), rgb(240,248,255));
   font-size: 18px;
 
 }
@@ -12,10 +12,11 @@ header {
   width:110%;
   height:64px;
   border-bottom: 1px solid white;
-  background-color: rgb(260, 260, 260);
+  background-color: rgb(240,248,255);
   margin-bottom: 10px;
   margin-top: -10px;
   margin-left: -10px;
+  font-family: 'Cormorant Unicase', serif;
 }
 
 header img {
@@ -33,7 +34,7 @@ header img {
 }
 
 .heading span {
-  color:rgb(135, 206, 235);
+  color:rgb(30,144,255);
 }
 
 /*nav*/
@@ -72,6 +73,7 @@ nav {
   flex-direction: column;
   width: 40%;
   padding-left: 40px;
+  color: rgb(240,248,255);
 }
 
 #button {
@@ -91,19 +93,56 @@ nav {
   transition: background-color, 0.5s, ease-in-out, 0.3s;
 }
 
-.banner-img,
-.left-content,
-.video-content {
+.banner-img {
   min-width: 60%;
   width: 60%;
 }
 
-.banner img,
-.info-banner .left-content img {
+.banner img {
   width: 100%;
   border-radius: 10px;
 }
 
 #mobile-banner-img {
   display: none;
+}
+
+/*content*/
+
+.left-container{
+  display: flex;
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 1rem;
+  
+  margin: 0;
+}
+
+.left-container img {
+  border-radius: 10px;
+  width: 60%;
+}
+
+.left-container h2 {
+  color: rgb(0, 0, 235);
+  font-size: 2rem;
+}
+
+.left-container p {
+  width: 60%;
+  text-align: left;
+  padding-bottom: 32px;
+}
+
+.right-container {
+  display:flex;
+  flex-direction: column;
+  color: rgb(240,248,255);
+  width: 40%;
+}
+
+.right-container img{
+  width:35%;
+  height:auto;
 }
