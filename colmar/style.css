@@ -108,20 +108,23 @@ nav {
 }
 
 /*content*/
-
+.second {
+ display: inline-flex;
+ width:100%;
+}
 
 .left-container{
-  display: flex;
   padding-left: 24px;
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 1rem;
   margin: 0;
+  width: 60%;
 }
 
 .left-container img {
   border-radius: 10px;
-  width: 60%;
+  width: 100%;
 }
 
 .left-container h2 {
@@ -130,19 +133,18 @@ nav {
 }
 
 .left-container p {
-  width: 60%;
   text-align: left;
   padding-bottom: 32px;
 }
 /*rightside*/
 
 .right-container {
-  display:flex;
-  position: relative;
   flex-direction: column;
   color: rgb(240,248,255);
   width: 40%;
-  float:right;
+  float: right;
+  padding-top: 25px;
+
 }
 
 .right-container img{
@@ -152,7 +154,8 @@ nav {
 }
 
 .right-container span {
-  
+  display: flex;
+  padding-top:
 }
 
 .right-container h3 {
