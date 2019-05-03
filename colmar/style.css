@@ -124,7 +124,8 @@ nav {
 
 .left-container img {
   border-radius: 10px;
-  width: 100%;
+  width: 115%;
+
 }
 
 .left-container h2 {
@@ -143,21 +144,19 @@ nav {
   color: rgb(240,248,255);
   width: 40%;
   float: right;
-  padding-top: 25px;
-
+  padding-top: 30px;
+  padding-left: 9rem;
 }
 
 .right-container img{
+  flex-direction: column;
   width:35%;
   height:auto;
   border-radius: 10px;
-}
-
-.right-container span {
-  display: flex;
-  padding-top:
+  vertical-align: baseline;
 }
 
 .right-container h3 {
+
   font-size: 16px;
 }
