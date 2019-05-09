@@ -39,6 +39,14 @@ header img {
   color:rgb(30,144,255);
 }
 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+#content-desktop {display: none;}
+#content-mobile {display: inline-flex;; padding-left: 50px;}
+}
+
 /*nav*/
 
 nav a {
@@ -109,9 +117,9 @@ nav {
   transition: background-color, 0.5s, ease-in-out, 0.3s;
 }
 
-.banner-img {
-  min-width: 60%;
-  width: 60%;
+#banner-img {
+
+  width: 50%;
 }
 
 .banner img {
@@ -119,9 +127,16 @@ nav {
   border-radius: 10px;
 }
 
-#mobile-banner-img {
-  display: none;
+
+#mobile-banner {display:none;}
+
+@media screen and (max-width: 768px) {
+#button {display: none;}
+#desktop-banner {display: none;}
+#mobile-banner {display: inline; font-size: 16px;}
+#mobile-img {display: inline-flex; width:100%;}
 }
+
 
 /*content*/
 .second {
